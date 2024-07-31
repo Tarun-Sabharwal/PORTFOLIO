@@ -2,9 +2,7 @@ section {
     flex: 1 0 auto;
     position: relative;
     width: 100%;
-    -webkit-transition: all .5s ease-in;
-    -o-transition: all .5s ease-in;
-    transition: all .5s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .who_am_I {
@@ -40,7 +38,7 @@ section {
 @media (max-width:991.98px) {
     .intro_sec {
         display: block;
-        height: auto!important;
+        height: auto !important;
     }
 }
 
@@ -70,7 +68,7 @@ section {
 }
 
 .intro_sec .intro .feature .wrap-icon {
-    background: 0 0!important;
+    background: 0 0 !important;
     width: auto;
     height: auto;
     margin-bottom: 0;
@@ -96,6 +94,7 @@ section {
     background-position: center;
     min-height: 700px;
     position: relative;
+    background-image: url('https://drive.google.com/uc?export=view&id=1Vwms2zzA5mNaTzsPazniCNle2gdnJLvs'); /* Set the background image directly here */
 }
 
 .ac_btn {
@@ -149,7 +148,6 @@ section {
     background-color: #000;
     transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -3;
-    z-index: -4;
 }
 
 .ac_btn .two {
@@ -162,7 +160,6 @@ section {
     background-color: var(--secondary-color);
     z-index: -2;
     transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -3;
 }
 
 #button_p {
@@ -171,7 +168,7 @@ section {
 }
 
 #button_h:hover {
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .intro_sec .h_bg-image .block {
@@ -183,7 +180,6 @@ section {
     width: 250px;
     height: 220px;
     border-radius: 100%;
-    /* mix-blend-mode: multiply; */
     background-color: #2f514e;
     z-index: 9999999999;
     display: flex;
@@ -218,7 +214,7 @@ section {
 .intro_sec .h_bg-image .block h3 {
     font-size: 14px;
     color: var(--text-color);
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -226,9 +222,29 @@ section {
 .intro_sec .h_bg-image .block p {
     font-size: 14px;
     line-height: 1.3;
-    color: var(--text-color)
+    color: var(--text-color);
 }
 
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+.profile-img {
+    width: 400px; /* Adjust size as needed */
+    height: 400px; /* Adjust size as needed */
+    border-radius: 50%;
+    border: 5px solid whitesmoke; /* Adjust border size and color as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add shadow for a 3D effect */
+  }
+  
+  .intro_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro_sec .order-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

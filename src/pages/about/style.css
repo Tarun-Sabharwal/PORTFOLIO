@@ -63,6 +63,8 @@
 
 .service__title {
     padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
     border-bottom: solid 2px var(--secondary-color);
 }
 
